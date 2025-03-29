@@ -1,9 +1,45 @@
 header{
-border:1rem solid #770000;
-width: 25rem;
+display: flex;
+justify-content: center;
+border:0.5rem solid #770000;
+width: 48rem;
 }
 
 #CDK{
-    height: 25rem;
-    width: 25rem;
+    height: 10rem;
+
+}
+
+header img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+nav{
+border: 0.5rem solid red;
+width: 48rem;
+height: 5rem;
+}
+
+aside{
+    border: 0.5rem solid blue;
+    width: 48rem;
+}
+
+main{
+    border: 0.5rem solid yellow;
+    width: 48rem;
+}
+
+footer{
+    border: 0.5rem solid green;
+    width: 48rem;
+}
+
+.ab{
+    height: 5rem;
+}
+
+.cd{
+    border: 0.2rem solid purple;
 }
