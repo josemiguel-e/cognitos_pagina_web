@@ -40,10 +40,27 @@ aside{
 
 main{
     grid-area: main;
-    border: 0.5rem solid yellow;
+    border: 0.5rem solid aqua;
     width: auto;
     height: auto;
     background: white;
+    display: flex;
+}
+
+#primerboton{
+    margin: auto;
+    background: yellow;
+    color: black;
+   
+}
+
+#primerboton:hover{
+    background: white;
+    cursor: pointer;
+}
+
+#primerboton:active{
+    background: green;
 }
 
 footer{
